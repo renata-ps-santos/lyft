@@ -1,3 +1,102 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, html{
+  height:100%;
+  padding:0;
+  margin:0;
+}
+
+.heroBackground {
+  background-image: url("../assets/images/hero.gif");
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  padding: 1px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 200px 20px 40px;
+}
+
+.menuLogo {
+  width: 50px;
+  height: 35px;
+}
+
+.menuItem {
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.menuItem:last-of-type {
+  padding: 7px 14px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-right: 0px;
+}
+
+.form {
+  background-color: white;
+  width: 410px;
+  position: absolute;
+  right: 0px;
+  padding: 30px 50px;
+  color: #728099;
+}
+
+.formTitle {
+  color: #352384;
+}
+
+.formSubtitle {
+  color: #352384;
+}
+
+.formInput {
+  border-bottom: 1px solid #352384;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 14px;
+  font-weight: 200;
+  padding-bottom: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.formSmallLetters {
+  font-size: 11px;
+}
+
+.formButton {
+  background-color: #FF00BF;
+  border-radius: 7px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 200;
+  border: none;
+  color: white;
+}
+
+.formLink {
+  margin-left: 20px;
+  text-decoration: underline;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}

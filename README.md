@@ -65,4 +65,4 @@ O que será levado em conta nesse desafio?
 * Estrutura de pastas e arquivos
 * nome das classes e ids
 * Indentação
-* `README.md` actualizado
+* `README.md` atualizado

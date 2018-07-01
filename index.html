@@ -2,118 +2,121 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>lyft page</title>
+    <title>Lyft</title>
     <link type="text/css" rel="stylesheet" href="css/main.css"></link>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500" rel="stylesheet">
   </head>
   <body>
-    <div class="heroBackground">
+    <header class="header-background">
       <div class="menu">
-        <img src="assets/images/logo-white.png" class="menuLogo"/>
+        <img src="assets/images/logo-white.png" class="menu__logo"/>
         <nav>
-          <a class="menuItem" href="">Drive</a>
-          <a class="menuItem" href="">Explore</a>
-          <a class="menuItem" href="">Help</a>
-          <a class="menuItem menuItemButton" href="">Log in</a>
+          <a class="menu__link" href="">Drive</a>
+          <a class="menu__link" href="">Explore</a>
+          <a class="menu__link" href="">Help</a>
+          <a class="menu__link menu__link--button" href="">Log in</a>
         </nav>
       </div>
-      <div class="formWrapper">
-        <div class="form">
-          <h1 class="formTitle">TURN MILES <br/> INTO MONEY</h1>
-          <h3 class="formSubtitle">SIGN UP TO DRIVE WITH LYFT.</h3>
-          <input type="text" placeholder="Phone number" class="formInput"/>
+      <div class="form-container">
+        <form class="form">
+          <h1 class="form__title">TURN MILES <br/> INTO MONEY</h1>
+          <h3 class="form__subtitle">SIGN UP TO DRIVE WITH LYFT.</h3>
+          <input type="text" placeholder="Phone number" class="form__input"/>
           <div class="mb-30">
-            <button class="formButton">Become a driver</button>
-            <a class="formLink">Sign up to ride</a>
+            <input class="form__submit" type="submit" value="Become a driver">
+            <a class="form__link">Sign up to ride</a>
           </div>
-          <div class="formSmallLetters">Already applied? Check the status of your application here.</div>
-          <div class="formSmallLetters mt-10">Earn money for inviting friends to drive. Learn more.</div>
-        </div>
+          <small class="form__small">Already applied? Check the status of your application here.</small>
+          <small class="form__small mt-10">Earn money for inviting friends to drive. Learn more.</small>
+        </form>
       </div>
-    </div>
-    <div class="gradientBackground">
-      <div class="appSection">
-        <div>
-          <div class="appSectionText">
-            <h2>A RIDE IN MINUTES</h2>
-            <p class="appSectionTextParagraph">Request a ride and you'll be on your way in minutes.</p>
-            <p class="appSectionTextParagraph">Request.Ride.Repeat.</p>
-          </div>
-          <div class="appSectionText">
-            <h2>SERIOUS ABOUT SAFETY</h2>
-            <p class="appSectionTextParagraph">From knowing the color of yout driver's car to our 24/7</p>
-            <p class="appSectionTextParagraph">Trust & Safety Team, we got you.</p>
-          </div>
-          <div class="appSectionText">
-            <h2 class="mb-0">HAPPY DRIVERS.</h2>
-            <h2 class="mt-0">HAPPY RIDERS.</h2>
-            <p class="appSectionTextParagraph">Ride with us and you'll see why 9 out of 10 rides end with five <br />starts.</p>
-          </div>
-        </div>
-        <img src="assets/images/phone.png" width="450px"/>
+    </header>
+    <div class="about">
+      <div>
+        <section>
+          <h2>A RIDE IN MINUTES</h2>
+          <p class="about__text">Request a ride and you'll be on your way in minutes.</p>
+          <p class="about__text">Request.Ride.Repeat.</p>
+        </section>
+        <section class="mt-30">
+          <h2>SERIOUS ABOUT SAFETY</h2>
+          <p class="about__text">From knowing the color of yout driver's car to our 24/7</p>
+          <p class="about__text">Trust & Safety Team, we got you.</p>
+        </section>
+        <section class="mt-30">
+          <h2>HAPPY DRIVERS.<br/>HAPPY RIDERS.</h2>
+          <p class="about__text">Ride with us and you'll see why 9 out of 10 rides end with five <br />starts.</p>
+        </section>
       </div>
+      <img src="assets/images/phone.png" width="450px"/>
     </div>
-    <div class="videoSection">
-      <div class="videoSectionTextWrapper">
+    <div class="video-container">
+      <section class="video-description">
         <h6 class="mb-0">WATCH</h6>
-        <h3 class="videoSectionHeader">AMPLIFY YOUR RIDE</h3>
+        <h1 class="video-description__title">AMPLIFY YOUR RIDE</h1>
         <p>Lyft's new emblem, Amp is the secret to smooth pickups. Lightinh up dashboards nationwide, the device makes it easy for passengers and drivers to find each other.</p>
-      </div>
+      </section>
       <iframe width="100%" height="480" src="https://www.youtube.com/embed/fLSmUWOYpKw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
-    <div class="videoSection">
+    <div class="video-container">
       <iframe width="100%" height="480" src="https://www.youtube.com/embed/V7j8Aqxmbs8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      <div class="videoSectionTextWrapper">
+      <section class="video-description">
         <h6 class="mb-0">WATCH</h6>
-        <h3 class="videoSectionHeader">JUNE</h3>
+        <h3 class="video-description__title">JUNE</h3>
         <p>In an animated short film by Academy Award-winner John Kahrs, a lonely widow in historic South Chicago is empowered to start sharing the ride - and sharing her life, too.</p>
+      </section>
       </div>
-    </div>
-    <div class="videoSection">
-      <div class="videoSectionTextWrapper">
+    <div class="video-container">
+      <section class="video-description">
         <h6 class="mb-0">WATCH</h6>
-        <h3 class="videoSectionHeader">A GOOD THINK GOING</h3>
+        <h3 class="video-description__title">A GOOD THINK GOING</h3>
         <p>Lauching on TV and online, "Tide on the Bright Side" shows how Lyft continues to prioritize happy drivers, short ETAs, and safety.</p>
-      </div>
+      </section>
       <iframe width="100%" height="480" src="https://www.youtube.com/embed/hWYQvs6UrPs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
+      </div>
     <footer class="footer">
-      <div class="footerListsWrapper">
-        <ul class="footerList">
+      <div class="site-map">
+        <ul>
           <li>LOG IN<li>
-          <li class="footerListItem">Help<li>
-          <li class="footerListItem">Cities<li>
-          <li class="footerListItem">Airports<li>
-          <li class="footerListItem">Fare Estimate<li>
+          <li class="site-map__item">Help<li>
+          <li class="site-map__item">Cities<li>
+          <li class="site-map__item">Airports<li>
+          <li class="site-map__item">Fare Estimate<li>
         </ul>
-        <ul class="footerList">
+        <ul>
           <li>PARTNER<li>
-          <li class="footerListItem">Partnerships<li>
-          <li class="footerListItem">Enterprise<li>
-          <li class="footerListItem">Ambassadors<li>
-          <li class="footerListItem">Developers<li>
+          <li class="site-map__item">Partnerships<li>
+          <li class="site-map__item">Enterprise<li>
+          <li class="site-map__item">Ambassadors<li>
+          <li class="site-map__item">Developers<li>
         </ul>
-        <ul class="footerList">
+        <ul>
           <li>LEARN<li>
-          <li class="footerListItem">Safety<li>
-          <li class="footerListItem">Blog<li>
-          <li class="footerListItem">Press<li>
-          <li class="footerListItem">Careers<li>
+          <li class="site-map__item">Safety<li>
+          <li class="site-map__item">Blog<li>
+          <li class="site-map__item">Press<li>
+          <li class="site-map__item">Careers<li>
         </ul>
-        <ul class="footerList">
-          <li class="footerListItem"><img src="assets/images/apple-store.svg"  width="120px"/><li>
-          <li class="footerListItem"><img src="assets/images/google-play.png" width="120px"/><li>
-          <li class="footerListItem"><img src="assets/images/microsoft.png" width="120px"/><li>
+        <ul>
+          <li class="site-map__item">
+            <img src="assets/images/apple-store.svg" width="120px"/>
+          </li>
+          <li class="site-map__item">
+            <img src="assets/images/google-play.png" width="120px"/>
+          </li>
+          <li class="site-map__item">
+            <img src="assets/images/microsoft.png" width="120px"/>
+          </li>
         </ul>
       </div>
-      <div class="footerBottom">
-        <div class="footerBottomSocialMidia">
+      <div class="footer__bottom-container">
+        <div class="footer__social-midia">
           <img src="assets/images/facebook-logo-white.png" width="28px"/>
           <img src="assets/images/instagram-logo-white.png" width="28px"/>
           <img src="assets/images/twitter-logo-white.png" width="28px"/>
         </div>
         <hr class="mb-30">
-        <p class="footerBottomCopyRight" >&copy; 2017 Lyft, Inc. TermsPrivacy<p>
+        <p class="footer__copy-right" >&copy; 2017 Lyft, Inc. TermsPrivacy<p>
       </div>
     </footer>
   </body>

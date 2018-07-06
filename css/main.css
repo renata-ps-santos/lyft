@@ -120,6 +120,12 @@ body, html{
   color: white;
 }
 
+.about__title {
+  margin: 5px 0;
+  font-weight: 200;
+  font-size: 14px;
+}
+
 .about__text {
   margin: 5px 0;
   font-weight: 200;

@@ -62,7 +62,6 @@ O objetivo é replicar o site do **Lyft** e esse deverá ser o resultado:
 
 O que será levado em conta nesse desafio?
 
-* Pixel perfect
 * Estrutura de pastas e arquivos
 * nome das classes e ids
 * Indentação

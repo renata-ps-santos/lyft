@@ -1,3 +1,118 @@
-/*
- * Estilos de tu proyecto
- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    font-family: 'Montserrat', sans-serif;
+}
+.flex{
+    display: flex;
+}
+main{
+    background: url('../assets/images/hero.gif') no-repeat top left;
+    background-size: cover;
+    background-position-y: -95px;
+}
+h1{
+    font-size: 2.8em;
+    margin-bottom: 30px;
+}
+.text-purple{
+    color: #352384
+}
+.text-light{
+    color:#728099;
+}
+.text-white{
+    color: #fff;
+}
+.header{
+    justify-content: space-around;
+    height: 6.5625em;
+    align-items: center;
+}
+.header-container{
+    justify-content: space-between;
+    align-items: center;
+    width: 71.25em;
+}
+.logo{
+    width: 52px;
+    height: 42px;
+}
+.nav-list{
+    align-items: center;
+    list-style: none;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+}
+.nav-item:hover{
+    color: #FF00BF;
+}
+.login{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 8px;
+}
+.login:hover{
+    border-color: #FF00BF;
+}
+.sign-in-box{
+    justify-content: flex-end;
+    margin-top: 30px;
+
+}
+.sign-in{
+    display: block;
+    padding: 40px;
+    width: 400px;
+    height: 345px;
+    background-color: #fff;
+}
+.form{
+    color: #728099;
+    border: none;
+    border-bottom: 1px solid #352384;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.button{
+    border: none;
+    background-color: #FF00BF;
+    color: #fff;
+    width: 170px;
+    height: 40px;
+    font-size: 1em;
+    border: 1px solid #FF00BF;
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+.bold{
+    font-weight:600;
+}
+.sign-in-footer{
+    font-size: 0.75em;
+    padding-top: 30px;
+}
+.inline{
+    display: inline-block;
+    padding-top: 10px;
+}
+.sign-in-footer a{
+    text-decoration: none;
+    color: #728099;
+}
+.test{
+    -webkit-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+    -moz-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+    box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+}
+.segundo{
+    background: linear-gradient(#76278F, #2B1E66);
+    padding: 150px;
+}

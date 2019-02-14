@@ -14,8 +14,21 @@ main{
     background-position-y: -95px;
 }
 h1{
-    font-size: 2.8em;
+    font-size: 2.4em;
     margin-bottom: 30px;
+    font-weight: bolder;  
+}
+h2{
+    font-size: 1.7em;
+}
+h4{
+    font-size: 0.8em; 
+}
+.title-sign-up{
+    width: 262px;
+}
+.sign-up-sub{
+    font-weight: bold;
 }
 .text-purple{
     color: #352384
@@ -114,5 +127,109 @@ h1{
 }
 .segundo{
     background: linear-gradient(#76278F, #2B1E66);
-    padding: 150px;
+    justify-content: center;
+    padding-bottom: 70px;
+    
+}
+.segundo-container{
+    justify-content: space-between;
+    width: 1100px;
+    margin-top: 30px;
+}
+.about{
+    align-self: center;
+    margin-top: -78px;
+    width: 487px;
+}
+.about p{
+    font-weight: 400;
+    font-size: 14px;;
+}
+.phone{
+    width: 500px;
+    margin-top: 70px;
+}
+.text-about-mt{
+    margin-top: 30px;
+}
+.amplify{
+    justify-content: flex-end;
+}
+.amplify-text{
+    flex-flow: column nowrap;
+    width: 368px;
+    margin-top: 45px;
+}
+.text-mb{
+    margin-bottom: 20px;
+}
+.reverse{
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.footer{
+    text-align: left;
+    background-color: #333447;
+    color: #fff;
+}
+.image-footer{
+    width: 135px;
+    height: 40px;
+    display: block;
+    margin: 30px;
+}
+.container{
+    width: 1050px;
+    justify-content: space-around;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul a{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-list li{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 0.9em;
+}
+.icons-container{
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    font-size: 0.9em;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 7px;
+}
+.fa-facebook-f{
+    font-size: 0.9em;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 7px 12px;
+}
+.fa-instagram{
+    font-size: 2em;
+}
+.teste2{
+    display: flex;
+    width: 313px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.line{
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright{
+    justify-content: center;
+    height: 80px;
+    font-size: 0.9em;
+    line-height: 80px;
 }

@@ -189,6 +189,9 @@ ul a{
     list-style: none;
     text-decoration: none;
 }
+.footer-list li:hover{
+    color: #FF00BF;
+}
 .footer-list li{
     margin-top: 30px;
     color: #fff;
@@ -204,15 +207,29 @@ ul a{
     border: 3px solid #fff;
     border-radius: 50%;
     padding: 7px;
+    cursor: pointer;
 }
 .fa-facebook-f{
     font-size: 0.9em;
     border: 3px solid #fff;
     border-radius: 50%;
     padding: 7px 12px;
+    cursor: pointer;
 }
 .fa-instagram{
     font-size: 2em;
+    cursor: pointer;
+}
+.fa-instagram:hover{
+    color: #FF00BF;
+}
+.fa-facebook-f:hover{
+    color: #FF00BF;
+    border-color: #FF00BF;
+}
+.icons:hover{
+    color: #FF00BF;
+    border-color: #FF00BF;
 }
 .teste2{
     display: flex;

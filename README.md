@@ -45,15 +45,16 @@
 * Tags input e button. O efeito de uma linha só foi feito retirando todas as bordas e editando um estilo apenas para a borda inferior, também foi adicionado paddings e margins.
 
 
-*Foram criadas algumas classes reutilizáveis como: 
--flex (display: flex)
+* Foram criadas algumas classes reutilizáveis como:
 
--text-purple (HEX: #352384), text-light (HEX:#728099), text-white (HEX: #fff)
+* flex (display: flex)
 
-bg-white (HEX: #fff), bg-pink (HEX: #FF00BF) e bg-dark (HEX: #333447)
+* text-purple (HEX: #352384), text-light (HEX:#728099), text-white (HEX: #fff)
 
-.align-center (align-items: center)
+* bg-white (HEX: #fff), bg-pink (HEX: #FF00BF) e bg-dark (HEX: #333447)
 
-.margin-auto (margin-left: auto e margin-right: auto)
+* align-center (align-items: center)
 
-.cursor-p (cursor: pointer)
+* margin-auto (margin-left: auto e margin-right: auto)
+
+*cursor-p (cursor: pointer)

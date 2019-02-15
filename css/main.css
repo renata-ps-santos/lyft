@@ -8,27 +8,8 @@
 .flex{
     display: flex;
 }
-main{
-    background: url('../assets/images/hero.gif') no-repeat top left;
-    background-size: cover;
-    background-position-y: -95px;
-}
-h1{
-    font-size: 2.4em;
-    margin-bottom: 30px;
-    font-weight: bolder;  
-}
-h2{
-    font-size: 1.7em;
-}
-h4{
-    font-size: 0.8em; 
-}
-.title-sign-up{
-    width: 262px;
-}
-.sign-up-sub{
-    font-weight: bold;
+.inline-block{
+    display: inline-block;
 }
 .text-purple{
     color: #352384
@@ -39,14 +20,63 @@ h4{
 .text-white{
     color: #fff;
 }
-.header{
-    justify-content: space-around;
-    height: 6.5625em;
+.bg-white{
+    background-color: #fff;
+}
+.bg-pink{
+    background-color: #FF00BF;
+}
+.bg-dark{
+    background-color: #333447;
+}
+.bold-medium{
+    font-weight:600;
+}
+.align-center{
     align-items: center;
 }
+.margin-top{
+    margin-top: 30px;
+}
+.margin-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-mb{
+    margin-bottom: 20px;
+}
+.cursor-p{
+    cursor: pointer;
+}
+.main-header{
+    background: url('../assets/images/hero.gif') no-repeat top left;
+    background-size: cover;
+    background-position-y: -95px;
+    -webkit-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+    -moz-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+    box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
+}
+h2{
+    font-size: 1.7em;
+}
+h4{
+    font-size: 0.8em; 
+}
+.title-sign-up{
+    width: 262px;
+    font-size: 2.4em;
+    margin-bottom: 30px;
+    font-weight: bolder;  
+}
+.sign-up-sub{
+    font-weight: bold;
+}
 .header-container{
+    justify-content: space-around;
+    height: 6.5625em;
+}
+.header-content{
     justify-content: space-between;
-    align-items: center;
     width: 71.25em;
 }
 .logo{
@@ -54,49 +84,42 @@ h4{
     height: 42px;
 }
 .nav-list{
-    align-items: center;
     list-style: none;
 }
 .nav-item{
     text-decoration: none;
-    color: white;
     padding: 0 15px;
-}
-.nav-item:hover{
-    color: #FF00BF;
 }
 .login{
     border: 1px solid white;
     border-radius: 3px;
     padding: 8px;
 }
+.nav-item:hover{
+    color: #FF00BF;
+}
 .login:hover{
     border-color: #FF00BF;
 }
-.sign-in-box{
+.sign-in-container{
     justify-content: flex-end;
     margin-top: 30px;
-
 }
 .sign-in{
     display: block;
     padding: 40px;
     width: 400px;
     height: 345px;
-    background-color: #fff;
 }
 .form{
-    color: #728099;
     border: none;
     border-bottom: 1px solid #352384;
     width: 100%;
     margin-top: 30px;
     font-size: 1.2em;
 }
-.button{
+.button-form{
     border: none;
-    background-color: #FF00BF;
-    color: #fff;
     width: 170px;
     height: 40px;
     font-size: 1em;
@@ -105,33 +128,23 @@ h4{
     margin-top: 25px;
     margin-right: 20px;
 }
-.bold{
-    font-weight:600;
-}
 .sign-in-footer{
     font-size: 0.75em;
     padding-top: 30px;
 }
-.inline{
-    display: inline-block;
+.sign-in-text{
     padding-top: 10px;
 }
-.sign-in-footer a{
+.anchor{
     text-decoration: none;
-    color: #728099;
 }
-.test{
-    -webkit-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
-    -moz-box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
-    box-shadow: inset -3px -99px 61px -44px rgba(118,39,143,1);
-}
-.segundo{
+.about-container{
     background: linear-gradient(#76278F, #2B1E66);
     justify-content: center;
     padding-bottom: 70px;
     
 }
-.segundo-container{
+.about-content{
     justify-content: space-between;
     width: 1100px;
     margin-top: 30px;
@@ -141,108 +154,87 @@ h4{
     margin-top: -78px;
     width: 487px;
 }
-.about p{
+.text-about{
     font-weight: 400;
-    font-size: 14px;;
+    font-size: 14px;
 }
 .phone{
     width: 500px;
     margin-top: 70px;
 }
-.text-about-mt{
-    margin-top: 30px;
-}
-.amplify{
+.video-container{
     justify-content: flex-end;
 }
-.amplify-text{
+.video-text{
     flex-flow: column nowrap;
     width: 368px;
     margin-top: 45px;
-}
-.text-mb{
-    margin-bottom: 20px;
 }
 .reverse{
     flex-direction: row-reverse;
     justify-content: space-between;
 }
-.footer{
+.footer-container{
     text-align: left;
-    background-color: #333447;
-    color: #fff;
 }
-.image-footer{
-    width: 135px;
-    height: 40px;
-    display: block;
-    margin: 30px;
-}
-.container{
+.footer-content{
     width: 1050px;
     justify-content: space-around;
     padding-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
 }
-ul a{
+.footer-list{
     list-style: none;
-    text-decoration: none;
 }
-.footer-list li:hover{
-    color: #FF00BF;
+.image-footer{
+    display: block;
+    width: 135px;
+    height: 40px;
+    margin: 30px;
 }
-.footer-list li{
+.list-item{
     margin-top: 30px;
-    color: #fff;
     font-size: 0.9em;
+}
+.list-item:hover{
+    color: #FF00BF;
 }
 .icons-container{
     justify-content: center;
-    align-items: center;
-}
-
-.icons{
-    font-size: 0.9em;
-    border: 3px solid #fff;
-    border-radius: 50%;
-    padding: 7px;
-    cursor: pointer;
 }
 .fa-facebook-f{
     font-size: 0.9em;
     border: 3px solid #fff;
     border-radius: 50%;
     padding: 7px 12px;
-    cursor: pointer;
 }
 .fa-instagram{
     font-size: 2em;
-    cursor: pointer;
 }
-.fa-instagram:hover{
-    color: #FF00BF;
+.fa-twitter{
+    font-size: 0.9em;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding: 7px;
 }
 .fa-facebook-f:hover{
     color: #FF00BF;
     border-color: #FF00BF;
 }
-.icons:hover{
+.fa-instagram:hover{
+    color: #FF00BF;
+}
+.fa-twitter:hover{
     color: #FF00BF;
     border-color: #FF00BF;
 }
-.teste2{
-    display: flex;
+.icons-content{
     width: 313px;
     margin-top: 70px;
     margin-bottom: 30px;
-    align-items: center;
     justify-content: space-around;
 }
-.line{
+.middle-line{
     width: 820px;
-    margin-left: auto;
-    margin-right: auto;
 }
 .copyright{
     justify-content: center;

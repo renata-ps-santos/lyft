@@ -57,4 +57,4 @@
 
 * margin-auto (margin-left: auto e margin-right: auto)
 
-*cursor-p (cursor: pointer)
+* cursor-p (cursor: pointer)
